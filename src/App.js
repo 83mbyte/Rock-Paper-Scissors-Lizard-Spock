@@ -13,6 +13,16 @@ function App() {
         <MainScreen />
         <FooterContainer showModal={setShow} />
         <ModalScreen show={show} setShow={setShow} />
+
+        <footer>
+          <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener"
+            >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/83mbyte" target="_blank" rel="noreferrer noopener">83mbyte</a>.
+          </div>
+        </footer>
       </div>
 
     </>
