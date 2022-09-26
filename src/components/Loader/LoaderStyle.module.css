@@ -1,0 +1,14 @@
+.container,
+.container img {
+  display: block;
+  width: 293px;
+  height: 300px;
+}
+
+@media (max-width: 450px) {
+  .container,
+  .container img {
+    width: 134px;
+    height: 134px;
+  }
+}

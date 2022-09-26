@@ -1,0 +1,26 @@
+.AppContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+@media (max-width: 455px) {
+  .AppContainer {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .AppContainer {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0 0 0;
+    min-height: 80vh;
+  }
+}

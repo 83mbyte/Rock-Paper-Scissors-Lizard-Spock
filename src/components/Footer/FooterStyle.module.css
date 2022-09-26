@@ -1,0 +1,30 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 135px;
+}
+
+.rulesBtnContainer {
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 8px;
+  width: 126px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.btnText {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 3px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 450px) {
+  .footerContainer {
+    margin: 0 0 0 0;
+    background-color: transparent;
+    justify-content: center;
+  }
+}

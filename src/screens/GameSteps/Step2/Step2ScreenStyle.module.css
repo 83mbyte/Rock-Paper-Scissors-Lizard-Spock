@@ -1,0 +1,143 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 53px 0;
+  padding: 0;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+/* animation */
+.contentContainer {
+  animation-name: scale-in;
+  animation-duration: 0.6s;
+}
+@keyframes scale-in {
+  0% {
+    scale: calc(0);
+  }
+  100% {
+    scale: calc(1);
+  }
+}
+/* animation end */
+
+.headerText {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0 0 63px 0;
+}
+
+.column_picked,
+.column_result,
+.column_thp {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.column_result {
+  width: 330px;
+}
+
+.chipArea {
+  border: 0px solid blue;
+  display: block;
+}
+
+@media (max-width: 455px) {
+  .container {
+    width: 90vw;
+    margin: 0 0;
+    background-color: transparent;
+  }
+
+  .contentContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    column-gap: 55px;
+  }
+  .headerText {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contentContainer div .chipArea {
+    order: 1;
+  }
+  .contentContainer div .headerText {
+    order: 2;
+  }
+
+  .contentContainer .column_picked {
+    order: 1;
+  }
+  .contentContainer .column_thp {
+    order: 2;
+    display: flex;
+  }
+
+  .contentContainer .column_thp .chipArea {
+    justify-content: end;
+  }
+  .contentContainer .column_result {
+    order: 3;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 90vw;
+    margin: 0 0 0px 0;
+    background-color: transparent;
+  }
+
+  .contentContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    column-gap: 20px;
+  }
+  .headerText {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contentContainer div .chipArea {
+    order: 1;
+  }
+  .contentContainer div .headerText {
+    order: 2;
+  }
+
+  .contentContainer .column_picked {
+    order: 1;
+  }
+  .contentContainer .column_thp {
+    order: 2;
+    display: flex;
+  }
+
+  .contentContainer .column_thp .chipArea {
+    justify-content: end;
+  }
+  .contentContainer .column_result {
+    order: 3;
+    width: 300px;
+  }
+}

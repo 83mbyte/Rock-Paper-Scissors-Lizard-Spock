@@ -1,0 +1,126 @@
+.itemsAtPentagon {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.itemsAtPentagon {
+  animation-name: spin;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: scale(4);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* @keyframes spin {
+  0% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+.itemsAtPentagon .pentagonUpperRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 270px;
+}
+
+.itemsAtPentagon .pentagonUpperRow .middlePosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.itemsAtPentagon .pentagonBottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px 60px 0 60px;
+}
+
+@media (max-width: 455px) {
+  .itemsAtPentagon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 2em 3rem;
+  }
+  .itemsAtPentagon .pentagonUpperRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 210px;
+  }
+  .itemsAtPentagon .pentagonBottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 40px 0 40px;
+  }
+}
+@media (max-width: 375px) {
+  .itemsAtPentagon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 2em 3rem;
+  }
+  .itemsAtPentagon .pentagonUpperRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .itemsAtPentagon .pentagonBottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 45px 40px 0 40px;
+  }
+}
+@media (max-width: 320px) {
+  .itemsAtPentagon {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 2em 3rem;
+  }
+  .itemsAtPentagon .pentagonUpperRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 185px;
+  }
+  .itemsAtPentagon .pentagonBottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 30px 0 30px;
+  }
+}
