@@ -69,19 +69,19 @@ const MainScreen = () => {
     return (
         <>
             <div className={style.mainContainer}>
+                <header>
+                    <HeaderContainer score={score} />
+                </header>
 
-                <HeaderContainer score={score} />
-
-
-
-                <div className={style.contentContainer}>
-                    {
-                        !picked
-                            ? <Step1Screen setPicked={setPicked} chips={chips} />
-                            : <Step2Screen pickedChip={chips[picked]} thp={chips[random]} setPicked={setPicked} scoring={{ score, setScore }} />
-                    }
-                </div>
-
+                <main>
+                    <div className={style.contentContainer}>
+                        {
+                            !picked
+                                ? <Step1Screen setPicked={setPicked} chips={chips} />
+                                : <Step2Screen pickedChip={chips[picked]} thp={chips[random]} setPicked={setPicked} scoring={{ score, setScore }} />
+                        }
+                    </div>
+                </main>
             </div>
 
         </>

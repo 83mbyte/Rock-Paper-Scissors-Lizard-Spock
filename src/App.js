@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <div className="AppContainer">
-        <main>
-          <MainScreen />
-          <FooterContainer showModal={setShow} />
-          <ModalScreen show={show} setShow={setShow} />
-        </main>
+
+        <MainScreen />
+        <FooterContainer showModal={setShow} />
+        <ModalScreen show={show} setShow={setShow} />
+
         <footer>
           <div class="attribution">
             Challenge by

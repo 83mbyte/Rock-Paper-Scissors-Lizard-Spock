@@ -7,9 +7,11 @@ const FooterContainer = ({ showModal }) => {
         showModal(true)
     }
     return (
-        <div className={style.footerContainer}>
-            <div className={style.rulesBtnContainer} onClick={rulesBtnClickHandler}><p className={style.btnText}>RULES</p></div>
-        </div>
+        <article>
+            <div className={style.footerContainer}>
+                <div className={style.rulesBtnContainer} onClick={rulesBtnClickHandler}><p className={style.btnText}>RULES</p></div>
+            </div>
+        </article>
     );
 };
 
