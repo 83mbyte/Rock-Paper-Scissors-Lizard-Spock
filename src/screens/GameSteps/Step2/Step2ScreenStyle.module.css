@@ -48,6 +48,7 @@
 }
 .column_result {
   width: 330px;
+  display: block;
 }
 
 .chipArea {
@@ -95,6 +96,7 @@
   }
   .contentContainer .column_result {
     order: 3;
+    display: block;
   }
 }
 
@@ -110,7 +112,7 @@
     display: flex;
     justify-content: center;
     gap: 0;
-    column-gap: 20px;
+    column-gap: 19px;
   }
   .headerText {
     font-size: 14px;
