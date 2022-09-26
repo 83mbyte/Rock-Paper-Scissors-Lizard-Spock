@@ -7,7 +7,7 @@ const Step1Screen = ({ chips, setPicked }) => {
 
         <div className={style.itemsAtPentagon}
             style={{
-                backgroundImage: 'url("/images/bg-pentagon.svg")'
+                backgroundImage: 'url("./images/bg-pentagon.svg")'
             }}>
             <div className={style.pentagonUpperRow}>
                 <div className={style.middlePosition}>
