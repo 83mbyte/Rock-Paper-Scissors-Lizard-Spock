@@ -5,7 +5,7 @@ const Loader = () => {
     return (
 
         <div className={style.container}>
-            <img src="/images/loading-37.gif" alt="loader.." />
+            <img src="./images/loading-37.gif" alt="loader.." />
         </div>
     );
 };

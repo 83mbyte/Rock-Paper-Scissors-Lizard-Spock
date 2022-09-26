@@ -17,7 +17,7 @@ const ChipContainer = ({ colors, icon, setPicked, large }) => {
                         <div className={!large ? style.innerCircleWhite : style.innerCircleWhiteLarge}  >
 
                             <div className={!large ? style.imgWrapper : style.imgWrapperLarge} >
-                                <img src={`/images/icon-${icon}.svg`} alt={`${icon} icon`} />
+                                <img src={`./images/icon-${icon}.svg`} alt={`${icon} icon`} />
                             </div>
                         </div>
                     </div>
