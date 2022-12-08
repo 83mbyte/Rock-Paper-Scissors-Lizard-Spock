@@ -16,7 +16,7 @@ function App() {
         <ModalScreen show={show} setShow={setShow} />
 
         <footer>
-          <div class="attribution">
+          <div className="attribution">
             Challenge by
             <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener"
             >Frontend Mentor</a

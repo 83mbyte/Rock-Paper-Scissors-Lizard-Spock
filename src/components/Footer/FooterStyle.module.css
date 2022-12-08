@@ -1,7 +1,11 @@
+article {
+  background-color: transparent;
+  width: 100%;
+}
 article .footerContainer {
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  /* width: 100%; */
   justify-content: flex-end;
   margin-right: 135px;
 }
