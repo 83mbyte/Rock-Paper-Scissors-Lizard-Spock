@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Rock-Paper-Scissors-Lizard-Spock/static/css/main.7089ee55.css",
-    "main.js": "/Rock-Paper-Scissors-Lizard-Spock/static/js/main.bcaed1ad.js",
+    "main.css": "/Rock-Paper-Scissors-Lizard-Spock/static/css/main.e1b57e06.css",
+    "main.js": "/Rock-Paper-Scissors-Lizard-Spock/static/js/main.d2f81958.js",
     "static/js/787.c8ffd4a8.chunk.js": "/Rock-Paper-Scissors-Lizard-Spock/static/js/787.c8ffd4a8.chunk.js",
     "index.html": "/Rock-Paper-Scissors-Lizard-Spock/index.html",
-    "main.7089ee55.css.map": "/Rock-Paper-Scissors-Lizard-Spock/static/css/main.7089ee55.css.map",
-    "main.bcaed1ad.js.map": "/Rock-Paper-Scissors-Lizard-Spock/static/js/main.bcaed1ad.js.map",
+    "main.e1b57e06.css.map": "/Rock-Paper-Scissors-Lizard-Spock/static/css/main.e1b57e06.css.map",
+    "main.d2f81958.js.map": "/Rock-Paper-Scissors-Lizard-Spock/static/js/main.d2f81958.js.map",
     "787.c8ffd4a8.chunk.js.map": "/Rock-Paper-Scissors-Lizard-Spock/static/js/787.c8ffd4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7089ee55.css",
-    "static/js/main.bcaed1ad.js"
+    "static/css/main.e1b57e06.css",
+    "static/js/main.d2f81958.js"
   ]
 }
